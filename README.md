@@ -8,8 +8,8 @@ In 'BasicSearchAppCSharp' you'll find the starter Web API backend code create us
 
 Backend: please take your time and work on some basic fixes and improvements, including, but not limited to:
 
- * For the endpoint at /api/patients/search?query=abc , 'query' parameter is supposed to be optional. If it's not present, return all patients with all documents. Right now if you build, run, and navigate to localhost:<port>/api/patients/search using the browser, you will see an error.
- * However, if you build, run, and navigate to /api/patients/search?query=abc , you will see response with empty objects. This also needs fixing.
+ * For the endpoint at /api/patients/search?query=abc , 'query' parameter is supposed to be optional. If it's not present, return all patients with all documents. Right now if you build, run, and navigate to localhost:65522/api/patients/search using the browser, you will see an error.
+ * However, if you build, run, and navigate to localhost:65522/api/patients/search?query=abc , you will see response with empty objects. This also needs fixing.
  * Make the 'query' parameter work, for instance enhance the backend to filter the results it returns by a case-insensitive, partial match over the document title and contents.
  * Clean up the code using better object-oriented design and improving readability.
  * Add unit tests.
